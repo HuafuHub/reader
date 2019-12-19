@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>reader</title>
+  <style>
+    .wrapper {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      width: 300px;
+      height: 500px;
+      border: 5px solid #000;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      overflow: hidden;
+      box-shadow: 
+              inset 0px 0px 300px 0px rgba(0,255,255,0.3),
+              inset 0px 0px 300px 0px rgba(255,255,0,0.7);
+    }
+
+    .art {
+      column-width: 300px;
+      height: 500px;
+      column-gap: 20px;
+      user-select: none;
+      transition: all 1s;
+    }
+    .art:hover{
+      cursor: e-resize;
+    }
+    h3 {
+      text-align: center;
+    }
+
+    h3:not(.first) {
+      -webkit-column-break-before: always;
+    }
+
+    p {
+      /* text-align-last: left; */
+      text-align: left;
+      text-indent: 2em;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <article class="art">
+      <h1>中央广播电视总台文艺节目中心特别节目《中国阅兵》精彩上演</h1>
+      <section class="sec">
+        <h3 class="first">前序</h3>
+        <p>
+          10月1日，在天安门广场举行的庆祝中华人民共和国成立70周年阅兵式让无数中国人热血沸腾、永生难忘，全体受阅官兵在新中国成立70周年这一伟大的历史节点，向党和人民交出了一份令人满意的答卷。为了聆听在阅兵场上发生的动人故事，领略平凡而伟大的英雄精神，中央广播电视总台文艺节目中心将于11月17日推出特别节目《中国阅兵》，以“阅兵分享会”的形式，分享具有家国情怀、体现新时代伟大梦想的典型阅兵故事或人物，为观众献上一曲激人奋进的强军战歌。
+        </p>
+      </section>
+      <section class="sec">
+        <h3>第一章：分享大阅兵“背后的故事”，聆听新时代的铁血军魂</h3>
+        <p>
+          习近平总书记指出，这次庆祝活动是国之大典，气势恢宏、大度雍容，纲维有序、礼乐交融，充分展示了新中国成立70年来的辉煌成就，有力彰显了国威军威，极大振奋了民族精神，广泛激发了各方面力量。节目邀请了参加阅兵式的战士代表结合自己的亲身经历，分享阅兵式不为人知的幕后故事，聆听这些战士的铁血军魂，与观众一起感受与国同心、与国同梦的家国情怀。
+        </p>
+        <p>
+          在采访环节中，陆军方队战士翟向选讲述了自己作为陆军受阅方队当中年龄最大的一员，在承受高强度训练的同时，为了达到军姿及正步标准，努力改正自身问题的经历。他还讲出了与逝去战友一起走过天安门的愿望，他为了实现两人的约定，将逝去战友的照片放在衬衣口袋中，并在训练中多次被评为“训练标兵”，甚至被战友们赋予了“最拼老兵”的称号，最终如愿以偿的和战友一起，接受了党和人民对他们的检阅。
+        </p>
+        <p>
+          值得一提的是，“致敬方队”的老兵代表关茂林在70年前的开国大典上就负责过天安门广场的安全保卫任务，在今年的阅兵式上他作为老一辈军队退役英模代表登上礼宾车向党和人民致以最光荣的军礼。在阅兵式结束后，他作了一首诗来抒发自己的感情：开国大典一哨兵，七十国庆成嘉宾。耄耋不忘初心在，余热生辉更精神。前辈晚辈齐奋进，日新月异年年新。待到百年国庆时，喜迎中华大复兴。关茂林的报国之心跃然纸上，让人肃然起敬。
+        </p>
+        <p>
+          同样，来自维和部队方队的张冰鉴也和观众分享了他的阅兵故事。今年在阅兵式上第一次出现的维和部队方队，向全世界宣示中国的大国担当。2018年年底，张冰鉴从苏丹达尔富尔执行完维和任务就一头扎进了“阅兵村”，开始了忙碌的训练生活。从教练员口中的“阅兵困难户”到以方队的“中心点”走过长安街，张冰鉴用实际行动体现了中国军人坚忍不拔，勇攀高峰的精神品格。
+        </p>
+        <p>
+          作为航母编队的核心作战力量，近年来，海军舰载航空兵部队逐步取得了由“单员试飞”向“批量培养”、由“昼间着舰”向“夜间着舰”、由“单机训练”向“体系融合”、由“近海飞行”向“远洋机动”等系列突破，实现了能上舰、能打仗、走出去的“三步走”奋斗目标。阅兵舰载机梯队队员卢朝辉除了分享他的阅兵故事之外，还向观众讲述了在2017年他和战友在一起例行飞行训练中，遇到险情到最后成功保护国家财产的事迹。
+        </p>
+      </section>
+      <section class="sec">
+        <h3>第二章：仪仗大队尽显军人风采，联合军乐团再奏“进行曲”</h3>
+        <p>
+          今年阅兵，仪仗方队护卫党旗、国旗、军旗走在徒步方队的最前方，引领受阅部队接受检阅。这支曾被中央军委授予“军旅标兵”荣誉称号的部队，先后代表国家执行了4800余次仪仗司礼任务，每次都万无一失。他们用信念和汗水捍卫新时代人民军队的形象与尊严，将泱泱大国形象展现在世人面前。在今年阅兵结束之后，有255名参加过国庆70周年阅兵活动的中国人民解放军仪仗大队队员退伍，告别了自己的军人生涯。在本次阅兵式中担任仪仗方队党旗组空军和海军的护旗兵李国震和成晓璐，此次作为退伍老兵代表来到了节目现场，回到自己曾经摸爬滚打、日夜训练的操场，他们不禁在现场分享起了当初训练的点点滴滴。同时，仪仗大队的战友们在得知他们“回家探亲”之后，也为他们准备了一份“特殊”的礼物。
+        </p>
+        <p>
+          在今年的阅兵式当中，由1300名官兵组成的联合军乐团是最令人瞩目的方队之一。联合军乐团是整个阅兵过程中入场最早、退场最晚的一个方队，全程站立接受检阅。1300人站立4小时，一气呵成演奏56首乐曲，创下了阅兵历史上演奏曲目之最。中国解放军军乐团团长张海峰将这次演奏形象地称为“在五线谱上踢正步”。在节目中，张海峰和中国人民解放军军乐团创作室的郭思达、李旭昊，以及《钢铁洪流进行曲》的作词袁渭清，现场分享了进行曲的创作历程与受阅故事。节目最后，由联合军乐团演奏，全场官兵一同唱响了《钢铁洪流进行曲》，展现了作为军人“不负军人铁血，不负家国河山”的赤子之心。
+        </p>
+        <p>
+          在阅兵式中，作为我国战略威慑核心力量的火箭军以6个方队，6种导弹武器型号同时登场，接受祖国和人民的检阅。其中，东风-17、长剑-100、东-41三型导弹为首次亮相，这既体现了中国军队“硬”实力，也展现了中国保卫和平的决心。
+        </p>
+        <p>
+          习近平总书记指出，庆祝活动是在实现中华民族伟大复兴中国梦的征程上，全体中华儿女对共同理想所作的一次豪迈宣示。正是这些受阅官兵的不懈努力、刻苦训练，让全世界看到了中华民族从站起来、富起来迈向强起来的雄心壮志。11月17日晚19:00锁定央视综艺频道，一起看《中国阅兵》，体会新时代的“铁血荣光”。
+        </p>
+      </section>
+    </article>
+  </div>
+  <script>
+    var wrap = document.querySelector(".wrapper");
+    var art = document.querySelector(".art");
+    var artObj = getComputedStyle(art, false);
+    var pageWidth = parseInt(artObj.columnWidth) + parseInt(artObj.columnGap);
+    var pageIndex = 0;
+    var pageCount = Math.ceil(art.scrollWidth / pageWidth);
+    console.log(pageCount)
+    wrap.onmousedown = function(e){
+      var disX = e.pageX;
+      document.onmouseup = function(e){
+        var stepX = e.pageX - disX;
+        if(Math.abs(stepX) > 10 && stepX > 0 && pageIndex > 0){
+          pageIndex--;
+          art.style.transform = `translateX(${-pageIndex*pageWidth}px)`;
+        }
+        if(Math.abs(stepX) > 10 && stepX < 0 && pageIndex < pageCount-1){
+          pageIndex++;
+          art.style.transform = `translateX(${-pageIndex*pageWidth}px)`;
+        }
+      }
+      
+    }
+  
+  </script>
+</body>
+
+</html>
